@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JobMatchPro – AI Job Matching</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="hero">
+  <h1>JobMatchPro</h1>
+  <p>AI-powered resume to job matching</p>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Paste Your Resume</h2>
+    <textarea id="resume" placeholder="Paste your resume text here..."></textarea>
+    <button id="matchBtn">Find Jobs</button>
+  </section>
+
+  <section class="card">
+    <h2>Matched Jobs</h2>
+    <div id="results">No jobs yet.</div>
+  </section>
+</main>
+
+<footer>
+  <p>Support: <a href="mailto:k.harshavarhanreddy@gmail.com">k.harshavarhanreddy@gmail.com</a></p>
+  <p>© 2025 JobMatchPro</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
